@@ -18,6 +18,11 @@ public class Order {
 	public int getQty() {
 		return qty;
 	}
+	@Override
+	public String toString() {
+		return "Order [orderId=" + orderId + ", qty=" + qty + ", price=" + price + ", date=" + date + ", status="
+				+ status + ", brick=" + brick + ", organisation=" + organisation + ", customers=" + customers + "]";
+	}
 	public void setQty(int qty) {
 		this.qty = qty;
 	}

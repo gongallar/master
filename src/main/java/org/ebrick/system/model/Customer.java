@@ -7,6 +7,11 @@ public class Customer {
 	private String name;
 	private String address;
 	private String city;
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", pincode=" + pincode + ", name=" + name + ", address=" + address + ", city="
+				+ city + ", state=" + state + ", country=" + country + "]";
+	}
 	public int getId() {
 		return id;
 	}

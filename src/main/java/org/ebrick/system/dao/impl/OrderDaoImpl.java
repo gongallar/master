@@ -66,6 +66,7 @@ public class OrderDaoImpl implements OrderDao {
 		Brick b=new Brick();
 		b.setId(101);
 		b.setQty(2);
+		b.setType("clay");
 		
 		List<Brick> bricks = new ArrayList<Brick>();
 		bricks.add(b);

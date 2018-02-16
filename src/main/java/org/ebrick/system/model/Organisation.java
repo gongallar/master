@@ -9,6 +9,11 @@ public class Organisation {
 	private String state;
 	private String country;
 	private String pincode;
+	@Override
+	public String toString() {
+		return "Organisation [id=" + id + ", name=" + name + ", address=" + address + ", city=" + city + ", state="
+				+ state + ", country=" + country + ", pincode=" + pincode + "]";
+	}
 	public int getId() {
 		return id;
 	}

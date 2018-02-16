@@ -13,6 +13,11 @@ public class Brick {
 	public int getId() {
 		return id;
 	}
+	@Override
+	public String toString() {
+		return "Brick [id=" + id + ", type=" + type + ", price=" + price + ", qty=" + qty + ", totQty=" + totQty
+				+ ", balQty=" + balQty + "]";
+	}
 	public void setId(int id) {
 		this.id = id;
 	}
